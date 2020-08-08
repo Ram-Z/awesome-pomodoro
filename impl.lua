@@ -70,7 +70,7 @@ return function(wibox, awful, naughty, beautiful, timer, awesome, base)
         end
 
         color = string.format("fgcolor='%s'", color)
-        local font = "font='Noto Emoji 12'"
+        local font = 'font="Symbola 12"'
         local markup = "<span %s %s>&#127813;</span>"
         return markup:format(color, font)
     end
