@@ -8,8 +8,6 @@ local os = require("os")
 local string = require("string")
 local table = require("table")
 
-module("pomodoro.impl")
-
 return function(wibox, awful, naughty, beautiful, timer, awesome, base)
     -- pomodoro timer widget
     pomodoro = wibox.widget.base.make_widget()
