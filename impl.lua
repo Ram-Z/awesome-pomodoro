@@ -237,7 +237,6 @@ return function(wibox, awful, naughty, beautiful, timer, awesome, base)
         local fh = io.popen(cmd, 'r')
         local stdout = fh:read('*all')
         fh:close()
-        io.write('spawn_orig')
         return stdout
     end
 
