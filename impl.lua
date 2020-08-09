@@ -278,7 +278,6 @@ return function(wibox, awful, naughty, beautiful, timer, awesome, base)
                 .. '\nawesome.Pomodoro.working: ' .. working_as_number
                 .. '\nawesome.Pomodoro.npomodoros: ' .. pomodoro.npomodoros
                 .. '" | xrdb -merge')
-                fh:close()
             end
         end)
 
