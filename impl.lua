@@ -194,7 +194,7 @@ return function(wibox, awful, naughty, beautiful, timer, awesome, base)
     end
 
     function get_buttons()
-        return awful.util.table.join(
+        return gears.table.join(
         awful.button({ }, 1, function()
             pomodoro:start()
         end),
